@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Helvetica;
-  background-color: #FAFAFA;
+  background-color: black;
 }
 
 /* CONTAINERS */
@@ -34,8 +34,8 @@
 
 /* LOGIN FORM */
 #form-box {
-  background-color: #FFF;
-  border: 1px solid #DBDBDB;
+  background-color: #323232;
+  border: 1px solid #4b4a4a;
   width: 350px;
   margin-top: 30px;
 }
@@ -44,30 +44,35 @@
   width: 175px;
   height: 51px;
   margin: 30px auto 12px;
-  background-color: #FFF;
+  background-color: #323232 !important;
+}
+
+#logo-insta{
+  margin-top: 50px !important;
 }
 
 #login-form {
   margin-top: 20px;
+  background-color: #323232 !important;
 }
 
 #login-form input {
   display: block;
   font-size: 12px;
   padding: 12px 9px;
-  background-color: #FAFAFA;
-  border: 1px solid #DBDBDB;
+  background-color: #323232;
+  border: 1px solid #acacac;
   border-radius: 3px;
   width: 268px;
   margin: 5px auto;
 }
 
 #login-form input[type="submit"] {
-  background-color: #B2DFFC;
+  background-color: #2196f3;
   color: #FFF;
   margin-top: 15px;
   border-radius: 5px;
-  border-color: #B2DFFC;
+  border: none;
   height: 30px;
   font-size: 13px;
   padding: 0;
@@ -94,6 +99,7 @@
   left: 50%;
   margin-left: -25px;
   font-size: 14px;
+  background-color: #323232 !important;
 }
 
 /* FACEBOOK LOGIN */
@@ -104,22 +110,25 @@
 
 #facebook-login a {
   text-decoration: none;
-  color: #385185;
+  color: #2196f3;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #323232 !important;
 }
 
 #facebook-login img {
   width: 16px;
   height: 16px;
   margin-right: 8px;
+  background-color: #323232 !important;
 }
 
 #facebook-login span {
   font-weight: bold;
   font-size: 13px;
   margin-top: 1px;
+  background-color: #323232 !important;
 }
 
 
@@ -128,18 +137,20 @@
 #forgot-pass {
   margin-bottom: 20px;
   font-size: 12px;
+  background-color: #323232  !important;
 }
 
 #forgot-pass a {
   text-decoration: none;
-  color: #373799;
+  color: #2196f3;
+  background-color:#323232 !important;
 }
 
 /* CHAMADA CADASTRO */
 
 #register-container {
-  background-color: #FFF;
-  border: 1px solid #DBDBDB;
+  background-color: #323232;
+  border: 1px solid #4b4a4a;
   width: 350px;
   margin-top: 10px;
   padding: 25px;
@@ -147,13 +158,15 @@
 
 #register-container p {
   font-size: 14px;
-  color: #262626;
+  color: #DBDBDB;
+  background-color: #323232;
 }
 
 #register-container a {
-  color: #4A95F6;
+  color: #2196f3;
   font-weight: bold;
   text-decoration: none;
+  background-color: #323232;
 }
 
 /* OBTER O APP */
@@ -243,4 +256,8 @@ footer #footer-links li {
     margin-bottom: 10px;
   }
 
+}
+
+#other-links{
+  background-color: #323232;
 }
